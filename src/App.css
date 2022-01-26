@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.App {
+  /* display: flex;
+  flex-direction: row; */
+  height: 650px;
+  width: 99%;
+}
+
+#menu-wrap {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+#link-wrapper button {
+  background-color: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 4px;
+}
+.App #select-options {
+  padding: 5px;
+  outline: none;
+  width: 130px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+#select-label {
+  margin: 5px;
+  font-size: 13px;
+}
+#newpatient-form-wrapper,
+#doctor-info-form-wrapper,
+#record-form-wrapper {
+  margin-top: 25px;
+}
+#newpatient-form-wrapper input,
+#doctor-info-form-wrapper input,
+#record-form-wrapper input {
+  display: block;
+  margin-left: 50%;
+  margin: 3px;
+  text-align: left;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid rgb(199, 198, 198);
+}
+
+#newpatient-form-wrapper label,
+#doctor-info-form-wrapper label,
+#record-form-wrapper label {
+  display: block;
+  margin-left: 50%;
+  margin: 3px;
+  text-align: left;
+}
+
+#new-patient-form,
+#doctor-info-form,
+#record-form {
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+#newpatient-btn,
+#doctor-info-btn,
+#record-btn {
+  margin-bottom: 50px;
+  width: 50%;
+  padding: 6px;
+  border-radius: 10px;
+  border: 1.5px solid purple;
+  background-color: transparent;
+  margin-top: 12px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.login {
+  height: 560px;
+  width: 100%;
+}
+
+.login-wrap{
+  height: 400px;
+  width: 300px;
+  border: 2px solid beige;
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 50px;
+}
+/* .login form{
+  width: 30%;
+  margin-left: 36%;
+  margin-top: 50px;
+} */
+.login h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login input {
+  margin-left: 25px;
+  display: block;
+  margin-bottom: 25px;
+  padding: 8px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid rgb(199, 198, 198);
+}
+
+.login label {
+  margin-left: 25px;
+  display: block;
+  text-align: left;
+}
+
+#login-btn {
+  padding: 8px;
+  margin-left: 25px;
+  width: 25%;
+  border-radius: 10px;
+  border: 1.5px solid purple;
+  background-color: transparent;
+}
+
+
+.navbar{
+  display: flex;
+  margin-left: 20px;
+}
+
+.nav-links{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-top: 25px;
+  text-decoration-line: none;
+}
+
+.nav-links li .links{
+  text-decoration-line: none;
+  color: black;
+}
+
+.nav-links li .links:hover{
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: purple;
+}
+
+hr{
+  border: 1px solid beige;
+  margin-left: 8px;
+}
